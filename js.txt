@@ -1,0 +1,144 @@
+1.     Explain variables?
+Ans:-->A JavaScript variable is simply a name of storage location. There are two types of variables in JavaScript :
+       local variable and global variable. js in 3 type of variable (1) var (2) let (3) conts
+       (1)var-reassignment and redeclaration
+       (2)let-reassignment
+       (3)conts- conts is a block scope
+
+2.     What are the different datatype in js?
+Ans:-->Js in 2 type of data-type.
+       (1)premative--------(2) non-premative.
+          (1)null-------------(1)object
+          (2)number-----------(2)array
+          (3)string
+          (4)symbol
+          (5)Bigint
+          (6)bolean
+          (7)undefind
+
+3.    Explain Hosting?
+Ans:--->In JavaScript, a variable can be declared after it has been used.
+        In other words, a variable can be used before it has been declared.
+ 
+4.    Different Between duble??&???
+Ans:--->
+
+
+
+
+5.     Different Between ==&===?
+Ans:---> (==)and (===) are Comparison Operators
+
+6.     one Arithmetical operator example?
+Ans:---> let a=5
+         let b=7
+         console.log(a+b);
+
+7.     Dynamic Example of boolian operator?
+Ans:---> let a=25
+         let b=26
+         console.log(a!=b)
+
+8.     How many keywords in js? and their example
+Ans:--->JavaScript keywords are reserved words, which we cannot use to name the variables or functions.
+        There are total of 63 keywords which JavaSscript provides to the programmers.
+
+9.     Different object and array>
+Ans:---> object can show key and value.
+         Arry can show index.
+
+10.    Type of funcation in Js?
+Ans:---> (1)  Function Declaration
+         (2)  Function Expression
+         (3)  Arrow Function
+
+11.    Adding CSS in js(example)?
+Ans:--->  <body>
+            <p id="p1">Hello World!</p>
+               <script>
+                  document.getElementById("p1").style.color = "blue";
+               </script>
+           </body>
+
+12.   what is global variable? 
+
+ Ans:---> A global variable in javascript is a variable having global scope, meaning, it can be accessed from anywhere inside the programme.
+
+13.    what is the cliant side and server side? 
+
+Ans:---> So client side scripting runs code like JavaScript on your phone or desktop while server-side scripting runs on the back-end server.
+         That way, it can deliver dynamic content to web pages in response to the client device.
+
+14.    What is lexican enviroment?
+ 
+Ans:-->  A lexical environment is a data structure that holds identifier-variable mapping. Lexical in general means in hierarchy or in a sequence.
+
+15.     what are the type of error in js?
+ 
+Ans:--->  There are 7 types of JavaScript errors: Syntax error, Reference Error,
+          Type Error, Evaluation Error, RangeError, URI Error and Internal Error.
+
+16.     create a example with loop
+
+Ans:-->  
+<!DOCTYPE html>
+
+           	<html> 
+
+		   <body>
+
+
+                      <p id="box"></p>
+
+                          
+<script> 
+
+                              let text = "";
+
+                              
+for (let i = 0; i < 5; i++) {
+  
+                                   text += "The number is " + i + "<br>";
+
+                                      }
+
+                              
+document.getElementById("box").innerHTML = text;
+
+                           </script> 
+
+
+                     </body>
+
+                  </html>
+
+17.     what is dom? example & briffing?
+ 
+Ans:---> DOM stands for Document Object Model.We can also add events to these elements to make our page more dynamic.
+
+18.     what is different between scripting & programing
+Scripting Language?
+Ans:---> They are used to create dynamic web applications.
+
+          (1) Scripting languages contain different libraries.
+
+                Example -: Bash, Ruby, Python, JavaScript etc.
+
+                         It has low maintenance cost.
+          (2)Programming Language Programming languages are of three types -:
+ 
+              low-level Programming language
+
+              Middle-level Programming language
+                         
+              High-level Programming language
+                       
+              Programming languages are used to write computer programs.
+
+	      Example -: C++, Java, PHP High-level etc.
+			
+              It has high maintenance cost.
+
+19.   Dynamic object
+ans?
+Ans:---> allow changing, accessing, or creating values and object properties at runtime for flexibility and adaptability.
